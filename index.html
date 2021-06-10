@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paint.css" />
+    <title>Painter portfolio</title>
+
+    <script src="paint.js"></script>
+
+  </head>
+
+    <main>
+        <section id="landing-page">
+            <div id="landing-text">
+                <div id="landing-text-body">
+                    <h1>STEVE JOHNSON</h1>
+                    <h2> Visual artist - maker of stuff</h2>
+                    <a href="#portfolio-section" class="btn" id="gallery">Gallery</a>
+                    <a href="https://www.instagram.com/artbystevej/" target="_blank" class="btn" id="contact">Reach out!</a>
+                </div>
+            </div>
+            <div id="landing-img"></div>
+        </section>
+        <section id="portfolio-section">
+            <div class="random-img"><script>
+                showImage();
+                </script>
+            </div>
+            <div class="random-img"><script>
+                showImage();
+                </script>
+            </div>
+            <div class="random-img"><script>
+                showImage();
+                </script>
+            </div>
+            <div class="random-img"><script>
+                showImage();
+                </script>
+            </div>
+            <div class="random-img"><script>
+                showImage();
+                </script>
+            </div>
+         </section>
+    </main>
+<footer>
+
+        <input type="button" id="bottom-button" value="MORE"
+        onClick="var a = window.location.reload(); window.location = '#portfolio-section';">
+
+   </footer>
+</html>
